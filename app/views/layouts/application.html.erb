@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Workspace</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <a href="/">Home</a>
+  <A href="/about">About</A>
+  <a href="/1">1</a>
+  <a href="2">2</a>
+  <a href="3">3</a>
+  <a href="/contacts">전화번호부</a>
+
+<%= yield %>
+
+</body>
+</html>
